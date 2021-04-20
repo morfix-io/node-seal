@@ -131,7 +131,7 @@ Versions:
 - Firefox Version 87.0 (64-bit)
 - Safari Version 14.0.3 (16610.4.3.1.7)
 
-Note: NodeJS and Chrome have the ability to increase WASM memory past 2GB; however, Safari and FireFox's does not allow WASM memory be increased beyond 2GB and therefore crashes at the point in the benchmark where the memory allocations exceed that capacity. It is worth to mention the benchmark was not originally designed to be run under the 2GB constraint.
+Note: NodeJS and Chrome have the ability to increase WASM memory past 2GB; however, Safari and FireFox does not allow WASM memory be increased beyond 2GB and therefore crashes at the point in the benchmark where the memory allocations exceed that capacity. It is worth to mention the benchmark was not originally designed to be run under the 2GB constraint.
 
 |         |            |        |                          |               | Native (No HEXL) | Node   | Chrome  | Safari | FireFox |
 | ------- | ---------- | ------ | ------------------------ | ------------- | ---------------- | ------ | ------- | ------ | ------- |
